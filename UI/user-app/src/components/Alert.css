@@ -1,0 +1,23 @@
+.alert {
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .alert.success {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .alert.error {
+    background-color: #f44336; /* Red */
+  }
+  
+  .alert.warning {
+    background-color: #ff9800; /* Orange */
+  }
+  
+  .alert.info {
+    background-color: #2196F3; /* Blue */
+  }

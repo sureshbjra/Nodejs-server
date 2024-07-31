@@ -1,0 +1,66 @@
+/* Ensure the dashboard takes up the full width of the viewport */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif;
+}
+
+/* Header should span the full width and be styled appropriately */
+.dashboard-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Full width */
+}
+
+/* Main content area spans the full width and is flexible */
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  width: 100%; /* Full width */
+}
+
+/* Each section within the dashboard content */
+.dashboard-section {
+  margin-bottom: 20px;
+}
+
+/* Styling for section headers */
+.dashboard-section h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  color: #007bff;
+}
+
+/* Styling for lists within sections */
+.dashboard-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-section ul li {
+  margin-bottom: 10px;
+}
+
+.dashboard-section ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.dashboard-section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer should span the full width and be styled appropriately */
+.dashboard-footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%; /* Full width */
+}
